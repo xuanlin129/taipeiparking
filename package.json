@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "name": "taipeiparking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ngrok": "npx ngrok http 3000 --region jp",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "linebot": "^1.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "ngrok": "^5.0.0-beta.2",
+    "nodemon": "^2.0.22"
+  }
+}
